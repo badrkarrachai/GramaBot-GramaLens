@@ -17,7 +17,7 @@ today = date.today()
 
 
 TOKEN: Final = 'TOKEN BY TELEGRAM'
-BOT_USERNAME: Final ='@Grama_2023_Bot'
+BOT_USERNAME: Final ='@Your_Bot_UserName'
 sa = gspread.service_account(filename="JASON FILE BY GOOGLE DEV")
 sh = sa.open("GramaLens_Money")
 wks = sh.worksheet("Totals")
